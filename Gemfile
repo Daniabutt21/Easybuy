@@ -48,6 +48,8 @@ gem 'devise'
 gem 'devise-i18n'
 gem 'dotenv-rails', groups: %i[development test]
 gem 'omniauth-google-oauth2'
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'omniauth-rails_csrf_protection', '~> 1.0'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
