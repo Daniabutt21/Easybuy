@@ -6,16 +6,18 @@
 # run tests and linters.
 name: "Ruby on Rails CI/CD"
 on:
-  push:
-    branches: [ main ]
   pull_request:
-    branches: [ main ]
+    branches:
+      - "*"
+  push:
+    branches:
+      - "*"
 jobs:
  test:
     runs-on: ubuntu-latest
     services:
       postgres:
-        image: postgres
+        image: postgres:11-alpine
         ports:
           - "5432:5432"
         env:
