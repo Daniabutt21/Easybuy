@@ -63,11 +63,11 @@ group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails'
   gem 'faker'
+  gem 'rspec_junit_formatter'
   gem 'rspec-rails'
   gem 'rubocop'
   gem 'rubocop-rails'
   gem 'ruby_audit'
-  gem 'rspec_junit_formatter'
 end
 
 group :development do
