@@ -24,16 +24,7 @@ Metrics/PerceivedComplexity:
 # Offense count: 7
 # Configuration parameters: AllowedConstants.
 Style/Documentation:
-  Exclude:
-    - 'spec/**/*'
-    - 'test/**/*'
-    - 'app/controllers/products_controller.rb'
-    - 'app/helpers/application_helper.rb'
-    - 'app/helpers/products_helper.rb'
-    - 'app/mailers/application_mailer.rb'
-    - 'app/models/application_record.rb'
-    - 'config/application.rb'
-    - 'db/migrate/20230821151247_create_products.rb'
+  Enabled: false
 
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
