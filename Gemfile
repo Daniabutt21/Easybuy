@@ -67,6 +67,7 @@ group :development, :test do
   gem 'rubocop'
   gem 'rubocop-rails'
   gem 'ruby_audit'
+  gem 'rspec_junit_formatter'
 end
 
 group :development do
