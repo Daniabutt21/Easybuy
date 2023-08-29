@@ -333,6 +333,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   brakeman
+  bundler (= 2.1.4)
   bundler-audit
   capybara
   debug
