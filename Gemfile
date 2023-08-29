@@ -44,6 +44,7 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
 
+gem 'bundler', '2.1.4'
 gem 'devise'
 gem 'devise-i18n'
 gem 'dotenv-rails', groups: %i[development test]
