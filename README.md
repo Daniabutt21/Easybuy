@@ -1,24 +1,57 @@
-# README
+# EasyBuy - Your Online Shopping Solution
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+EasyBuy is a Ruby on Rails web application that provides a seamless and user-friendly platform for purchasing products online. Whether you're a buyer looking for great deals or a seller looking to showcase your products, EasyBuy has got you covered.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- Browse a wide range of products from various categories.
+- Search for specific products using keywords.
+- View detailed product information, including images, descriptions, and prices.
+- Add products to your shopping cart.
+- Proceed to checkout and make secure payments.
+- User authentication and account management for both shoppers and sellers.
+- Seller dashboard to manage products, orders, and inventory.
+- Responsive design for a seamless experience across devices.
 
-* System dependencies
+## Installation
 
-* Configuration
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Daniabutt21/Easybuy.git
+   cd easybuy
 
-* Database creation
+2. Install dependencies:
+   ```sh
+   bundle install
 
-* Database initialization
+3. Set up the database:
+   ```sh
+   rails db:create db:migrate
 
-* How to run the test suite
+4. Run the tests:
+   ```sh
+   rails test
 
-* Services (job queues, cache servers, search engines, etc.)
+5. Run Rubocop:
+   ```sh
+   bundle exec rubocop --parallel -A
 
-* Deployment instructions
+5. Start the server:
+   ```sh
+   rails server
 
-* ...
+6. Access the application in your web browser at http://localhost:3000.
+
+## Usage
+
+1. As a Buyer:
+- Browse the product categories and select a product of your choice.
+- View product details and click "Add to Cart" to add products to your shopping cart.
+- Go to the cart, review your items, and click "Checkout" to make a purchase.
+- Follow the payment process to complete your order.
+
+2. As a Seller:
+- Log in to your seller account.
+- Access the seller dashboard to manage your products and orders.
+- Add new products, update product information, and manage inventory.
+- View and fulfill incoming orders from customers.
